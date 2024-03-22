@@ -11,9 +11,10 @@ Since it's not much content I used infinate scroll to load all my posts and then
 
 ## Top posts (allegedly)
 
-Auto execute psql commands via batch file
-
-Mirroring 4D data to another database
+- Auto execute psql commands via batch file
+- Import SQL files via psql command line scheduled task
+- svn: Can't move /.svn/tmp/entries: Operation not permitted
+- Automatic cron backup of PostgreSQL database
 
 ## Why github?
 
