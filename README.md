@@ -30,6 +30,6 @@ I had joined GitHub late 2010 but used this blog to publish thoughts. I think at
 Because I'm doing this once. Procedurally...
 
 ```
-python ./wordpressDownloadImages
-python ./wordpress
+python ./wordpressDownloadImages.py
+python ./wordpress.py
 ```
