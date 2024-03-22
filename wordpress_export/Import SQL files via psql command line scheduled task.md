@@ -4,7 +4,7 @@ This script will monitor a hot folder, take it’s contents and execute the
 files against a postgres server.
 
 Why post this? This python script in conjunction with a [ parameter setting
-batch file ](http://txcowboycoder.wordpress.com/2010/11/11/auto-execute-psql-
+batch file ](./auto-execute-psql-
 commands-via-batch-file/) can take SQL output and apply it to the postgres
 database. Originally I was searching how to do this via DOS when I realized I
 didn’t have all the error catching capability that I wanted.

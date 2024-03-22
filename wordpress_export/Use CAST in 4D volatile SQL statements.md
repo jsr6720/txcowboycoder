@@ -41,8 +41,7 @@ However, using ` CAST ` will give us the desired result.
     
 
 Of course it would be nice if [ 4D compiler could detect these
-](http://txcowboycoder.wordpress.com/2011/04/25/compiler-warning-on-possible-
-loss-of-precision/ "Compiler warning on possible loss of precision") types of
+](./compiler-warning-on-possible-loss-of-precision/ "Compiler warning on possible loss of precision") types of
 problems before they occur.
 
 Posted in 4D | Tagged 4D , CAST , data types , Error code: 1108 , sql | 1 Comment 

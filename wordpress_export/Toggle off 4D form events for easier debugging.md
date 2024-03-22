@@ -7,7 +7,7 @@ When creating a new form in 4D v11 it comes with a range of events ‘enabled’
 (see figure). I’m assuming this is for ease of development.
 
 However, I advocate for turning off all events first and then [ enabling
-specific events ](http://txcowboycoder.wordpress.com/2011/04/03/encapsulate-
+specific events ](./encapsulate-
 formobject-methods-with-form-event-case-statements/ "Encapsulate form/object
 methods with form event case statements") on an as needed basis.
 

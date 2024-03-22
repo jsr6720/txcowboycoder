@@ -2,7 +2,7 @@
 
 Over the last two weeks I have been taking vacation and diving head first into
 my [ first major ruby language project
-](http://txcowboycoder.wordpress.com/2011/01/07/request-tracker-to-redmine-
+](./request-tracker-to-redmine-
 migration/) .
 
 Having never programed ruby before my gut reaction to the language is one

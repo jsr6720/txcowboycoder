@@ -1,7 +1,7 @@
 # 4D based mirror component – take two
 
 My first attempt to [ mirror data
-](https://txcowboycoder.wordpress.com/2010/10/20/mirroring-data-to-another-
+](./mirroring-data-to-another-
 database/) from 4D to another database didn’t work. So, I’m taking another
 crack at it with lessons learned from my previous attempt.
 

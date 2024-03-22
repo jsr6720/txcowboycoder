@@ -17,7 +17,7 @@ The last developer removed the object method content from the ` variable `
 input area but did not explicitly clear the object method. This falsely
 indicates object method content, and worse yet 4D will execute the blank
 object method for [ each event enabled
-](http://txcowboycoder.wordpress.com/2011/05/02/toggle-off-4d-form-events-for-
+](./toggle-off-4d-form-events-for-
 easier-debugging/ "Toggle off 4D form events for easier debugging") on that
 object.
 

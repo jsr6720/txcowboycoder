@@ -1,7 +1,7 @@
 # Postgres dynamic trigger — mirroring
 
 This is a companion post to the [ 4D mirroring
-](http://txcowboycoder.wordpress.com/2010/10/20/mirroring-data-to-another-
+](./mirroring-data-to-another-
 database/) The approach to this problem, is to have data from the source
 mirror itself out to a target and accept changes from that mirror system back.
 All sql based INSERT UPDATE and DELETE operations are to send their changes to

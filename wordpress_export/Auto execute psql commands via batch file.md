@@ -7,7 +7,7 @@ Warning postgres recommends against doing this, and instead use a [ password
 file ](http://www.postgresql.org/docs/8.4/interactive/libpq-pgpass.html) .
 
 I use this script to kick off the [ psql command in python
-](http://txcowboycoder.wordpress.com/2010/11/11/import-sql-files-via-psql-
+](./import-sql-files-via-psql-
 comma/) . But you can execute psql straight from the batch file, just check
 the ` %ERRORLEVEL% ` batch variable from the calling method.
 

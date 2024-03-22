@@ -44,7 +44,7 @@ to display them in an object, or puts into [ object property definitions
 null values are rendered.
 
 See my comments on [ float data types
-](http://txcowboycoder.wordpress.com/2010/11/11/new-4d-variable-data-type-
+](./new-4d-variable-data-type-
 float/ "New 4D variable data type – float") .
 
 Posted in 4D | Tagged 4D , clean code , null , sql , v11 , v12 | 1 Comment 

@@ -7,7 +7,7 @@ is to define the field with ` NOT NULL ` constraint.
 
 The different outcomes of the two ways to create fields is terrible behavior
 because of [ lack of support for null values in the 4DDB engine
-](http://txcowboycoder.wordpress.com/2011/06/07/allow-null-values-in-4db-
+](./allow-null-values-in-4db-
 engine/ "Allow NULL values in 4DB engine") . 4D seems to assume developers are
 either using 4D with all native code, or all SQL code, not hybrid solutions.
 

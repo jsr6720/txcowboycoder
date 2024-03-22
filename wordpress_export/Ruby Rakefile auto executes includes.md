@@ -1,7 +1,7 @@
 # Ruby Rakefile auto executes includes
 
 When the custom [ rake task
-](http://txcowboycoder.wordpress.com/2011/01/07/request-tracker-to-redmine-
+](./request-tracker-to-redmine-
 migration/) to migrate data from one system to another was implemented our
 cron job stopped working.
 

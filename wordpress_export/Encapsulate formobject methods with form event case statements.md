@@ -22,7 +22,7 @@ specific events and turn off unneeded events.
 
 This provides clarity on what code is to execute for the specified event. It
 also prevents code from [ executing multiple times
-](http://txcowboycoder.wordpress.com/2011/04/02/toggle-off-4d-form-events-for-
+](./toggle-off-4d-form-events-for-
 easier-debugging/ "Toggle off 4D form events for easier debugging") if new
 events are selected for a form/object. I.e. enabling ` On Load ` with implicit
 ` On Click ` code already existing in the method.
