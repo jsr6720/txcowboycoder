@@ -5,6 +5,13 @@ from html2text import html2text
 from sanitize_filename import sanitize
 from urllib.parse import urlparse
 
+# todo
+## use the tempalte file to generate jekyll markdown
+## actually get the code blocks in play
+## find things with comments #comments">1 Comment</a>
+## flatten category and tags into one array
+## see if gpt4 does anything different with image capture
+
 
 # Function to strip tags but keep text
 def strip_tags_but_keep_text(element):
