@@ -45,6 +45,8 @@ def wordpress_html_to_markdown(file_path, output_dir):
         categories = [a.get_text(strip=True) for a in post_info.find_all("a", rel="category tag")] or []
         # I'm not coming back to fix this. but jekyll tags are whitespace deliminiated, not comma. Silly assumption or I can blame ChatGPT...
         tags = [a.get_text(strip=True) for a in post_info.find_all("a", rel="tag")] or []
+        # also also the quotation marks do nothing to contain the strings in jekyll and tags are case-sensative
+        # if for whatever reason you're using this script as a starting point you'll want to lower() remove duplicates and actually validate against jekyll docs
         tags_str = '"' + ('", "').join(tags) + '"'
 
         # Check for comments
@@ -64,7 +66,7 @@ layout: post
 author: James Rowe
 title:  "{title}"
 date:   "{date_formatted} 00:00:00 -0400"
-tags: wordpress, txcowboycoder, {tags_str}
+tags: wordpress txcowboycoder {tags_str}
 uid: {guid}
 ---
 """
