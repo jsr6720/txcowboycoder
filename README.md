@@ -27,6 +27,8 @@ So primary objective was to
 * segment each post as one file
 * add some `jekyll` header data
 
+Whoops. more like 80/20 I guess. Found some issus with the `tags` generation. Nothing a little regex couldn't fix but a stitch in time...
+
 ## ChatGPT4 augmented coding
 
 Fresh off using ChatGPT3.5 to migrate my posts from [goodreads](https://github.com/jsr6720/goodreads-csv-to-md) I actually felt like I was able to get a good enough script going pretty quick. See [ChatGPT log](chatgpt4-assisted-programming.md) with full log.
