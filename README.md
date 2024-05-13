@@ -17,7 +17,7 @@ Targeting jekyll md format for use on [my personal site](https://jsr6720.github.
 
 Since it's not much content I used infinate scroll to load all my posts and then `view rendered source` to 'download' [txCowboyCoderBlogHTML.html](./txCowboyCoderBlogHTML.html) and used that as my starting point to parse with a python script into `md` format files for posterity(?).
 
-## Good enough rule / 90/10 rule
+## Good enough rule and the 90/10 rule
 
 Since I was brute forcing this content I just wanted to get the `class="post"` chopped up into `markdown` files for inclusion in `jekyll` posts. 
 
@@ -28,6 +28,10 @@ So primary objective was to
 * add some `jekyll` header data
 
 Whoops. more like 80/20 I guess. Found some issus with the `tags` generation. Nothing a little regex couldn't fix but a stitch in time...
+
+### Archiving repository 2024-05-13
+
+This script has served its purpose for me. Got the content into my personal pages site. #mischief-managed
 
 ## ChatGPT4 augmented coding
 
