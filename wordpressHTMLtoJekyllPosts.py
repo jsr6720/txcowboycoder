@@ -43,6 +43,7 @@ def wordpress_html_to_markdown(file_path, output_dir):
         # Extract the categories and tags
         post_info = post_div.find("p", class_="post-info")
         categories = [a.get_text(strip=True) for a in post_info.find_all("a", rel="category tag")] or []
+        # I'm not coming back to fix this. but jekyll tags are whitespace deliminiated, not comma. Silly assumption or I can blame ChatGPT...
         tags = [a.get_text(strip=True) for a in post_info.find_all("a", rel="tag")] or []
         tags_str = '"' + ('", "').join(tags) + '"'
 
